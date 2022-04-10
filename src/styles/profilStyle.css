@@ -1,0 +1,10 @@
+.profil_body {
+  position: absolute;
+  width: 250px;
+  height: 926px;
+  left: 15px;
+  top: 83px;
+  background: #ffffff;
+  box-shadow: 2px 0px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}

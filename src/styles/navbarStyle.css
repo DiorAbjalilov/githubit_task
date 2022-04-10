@@ -1,0 +1,149 @@
+.menu_btns {
+  display: flex;
+  column-gap: 24px;
+}
+.menu_btns .profil_btn button {
+  width: 250px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.menu_btns .profil_btn span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #2e3456;
+  text-transform: none;
+}
+.menu_btns .profil_btn svg {
+  position: absolute;
+  left: 25px;
+  color: #2e3456;
+}
+.header_btns {
+  display: flex;
+  column-gap: 10px;
+}
+.header_btns .arrow_btn button {
+  width: 60px;
+  height: 60px;
+  color: #2e3456;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.header_btns .map_btn button {
+  width: 328px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.header_btns .map_btn span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #2e3456;
+  text-transform: none;
+}
+.header_btns .map_btn img {
+  position: absolute;
+  left: 8%;
+}
+.header_btns .map_btn svg {
+  position: absolute;
+  right: 8%;
+  transform: rotate(-90deg);
+  position: absolute;
+  color: #2e3456;
+  font-size: 15px;
+}
+.header_btns .search_btn button {
+  width: 359px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.header_btns .search_btn svg {
+  position: absolute;
+  left: 8%;
+}
+.header_btns .search_btn input {
+  width: 182px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #2e3456;
+  border: none;
+  outline: none;
+}
+.header_btns .search_btn input::placeholder {
+  color: #999;
+}
+.header_btns .search_btn img {
+  position: absolute;
+  right: 8%;
+}
+.header_btns .oclock_btn button {
+  width: 210px;
+  height: 60px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.header_btns .oclock_btn button .oclock_color {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #f26110;
+  width: 190px;
+  height: 40px;
+  background: #f2631036;
+  border-radius: 50px;
+}
+.header_btns .card_btn button {
+  width: 138px;
+  height: 60px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+}
+.header_btns .card_btn .card_color {
+  /* position: absolute; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #16aa16;
+  border-radius: 50px;
+}
+.header_btns .card_btn span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #2e3456;
+}
