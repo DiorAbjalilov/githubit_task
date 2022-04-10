@@ -14,11 +14,12 @@
 }
 .basic_body .profil_header {
   display: flex;
+  column-gap: 24px;
 }
-
+/* 
 .profil_header .profil_block {
   border: 1px solid green;
-}
-.profil_header .header_block {
-  border: 1px solid yellow;
-}
+} */
+/* .profil_header .header_block {
+  border: 2px solid yellow;
+} */

@@ -1,3 +1,4 @@
+import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Profil from "./components/profil/Profil";
 import "./styles/basicStyle.css";
@@ -12,7 +13,9 @@ function App() {
           <div className="profil_block">
             <Profil />
           </div>
-          <div className="header_block">header</div>
+          <div className="header_block">
+            <Header />
+          </div>
         </header>
       </section>
     </>
