@@ -5,3 +5,156 @@
   box-shadow: 2px 0px 2px rgba(223, 226, 235, 0.79);
   border-radius: 10px;
 }
+.profil_body .profil_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 37px;
+}
+.profil_photo .photo_setting {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.photo_setting .photo_user img {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.photo_setting .profil_setting img {
+  opacity: 0.5;
+}
+.photo_setting .profil_notif img {
+  opacity: 0.5;
+}
+.profil_photo .profil_name {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.profil_photo .profil_name h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.profil_photo .profil_name h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.profil_photo .profil_balance {
+  width: 181px;
+  height: 84px;
+  background: #c0c2cc11;
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
+.profil_photo .profil_balance div:nth-child(1) h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.profil_photo .profil_balance div:nth-child(1) h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  color: #000000;
+}
+.profil_photo .profil_share {
+  width: 181px;
+  height: 40px;
+  background: #f2631021;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.profil_photo .profil_share h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #f26110;
+}
+.profil_body .profil_lists {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+  row-gap: 36px;
+}
+.profil_lists .list_id {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  margin-left: 35px;
+}
+.profil_lists .list_id h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #000000;
+  opacity: 0.5;
+}
+.profil_lists .list_id img {
+  opacity: 0.5;
+}
+.profil_lists .list_id:nth-child(1) img {
+  opacity: 1;
+}
+.profil_lists .list_id:nth-child(1) h5 {
+  opacity: 1;
+}
+.profil_bottom {
+  margin-top: 56px;
+}
+.profil_bottom .bottom_item {
+  display: flex;
+  margin-left: 36px;
+  align-items: center;
+  padding: 18px 0;
+  width: 70%;
+  justify-content: space-between;
+  border-top: 1px solid #e6e7eb;
+}
+.profil_bottom .bottom_item img:nth-child(1) {
+  opacity: 0.5;
+}
+.profil_bottom .bottom_item h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #000000;
+  opacity: 0.5;
+}
