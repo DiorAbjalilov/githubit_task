@@ -5,7 +5,7 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import SearchIcon from "@mui/icons-material/Search";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import "../../styles/navbarStyle.css";
-const Navbar = () => {
+const Navbar = ({ drawer }) => {
   return (
     <>
       <div className="menu_btns">
@@ -36,7 +36,7 @@ const Navbar = () => {
             </Button>
           </div>
           <div className="oclock_btn">
-            <Button>
+            <Button onClick={drawer}>
               <div className="oclock_color">
                 <img src="/icons/oclock.svg" />
                 <span>By 09:00 — 23:00</span>
