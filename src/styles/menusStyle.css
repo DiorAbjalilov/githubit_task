@@ -1,0 +1,42 @@
+.menus_body {
+  display: flex;
+  margin-top: 50px;
+}
+.menus_body .menu_setting button {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(223, 226, 235, 0.79);
+  border-radius: 10px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.menus_body .menu_btns {
+  margin-left: 20px;
+  column-gap: 10px;
+}
+.menus_body .menu_btns button {
+  /* width: 99px; */
+  /* height: 50px; */
+  padding: 17px 24px;
+  background: rgba(192, 194, 204, 0.18);
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  color: #00000075;
+  text-transform: none;
+  /* opacity: 0.5; */
+}
+.menus_body .menu_btns button:nth-child(2) {
+  background-color: #ffffff;
+  color: #000;
+}
+.menus_body .menu_btns button img {
+  opacity: 0.5;
+  margin-left: 5px;
+}
